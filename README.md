@@ -1,2 +1,2 @@
 # leetcode-walking
-:pencil2: a algorithm learning record
+:pencil2: leetcode solutions with C#
