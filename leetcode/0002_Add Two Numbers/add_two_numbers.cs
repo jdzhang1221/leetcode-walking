@@ -1,18 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace leetcode._0002_Add_Two_Numbers
+﻿namespace leetcode._0002_Add_Two_Numbers
 {
     public class add_two_numbers
     {
         public class ListNode
         {
             public int val;
+
             public ListNode next;
             public ListNode(int x) { val = x; }
-
         }
+        /// <summary>
+        /// Time Complexity O(max(m,n))  Space Complexity O(max(m,n))
+        /// </summary>
+        /// <param name="l1"></param>
+        /// <param name="l2"></param>
+        /// <returns></returns>
         public static ListNode AddTwoNumbers(ListNode l1, ListNode l2)
         {
             //initialize current node to dummy head of the returning list

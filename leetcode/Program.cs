@@ -1,5 +1,6 @@
-﻿using System;
+﻿using leetcode._0003_Longest_Substring_Without_Repeating_Characters;
 using static leetcode._0002_Add_Two_Numbers.add_two_numbers;
+using System;
 
 namespace leetcode
 {
@@ -15,16 +16,22 @@ namespace leetcode
             #endregion
 
             #region add two numbers
-            ListNode l1 = new ListNode(3);
-            l1.next = new ListNode(4);
-            l1.next.next = new ListNode(3);
+            //ListNode l1 = new ListNode(3);
+            //l1.next = new ListNode(4);
+            //l1.next.next = new ListNode(3);
 
-            ListNode l2 = new ListNode(5);
-            l2.next = new ListNode(6);
-            l2.next.next = new ListNode(4);
+            //ListNode l2 = new ListNode(5);
+            //l2.next = new ListNode(6);
+            //l2.next.next = new ListNode(4);
 
-            var result= AddTwoNumbers(l1, l2);
+            //var result= AddTwoNumbers(l1, l2);
             #endregion
+
+            #region longest substring without repeating characters
+            string input = "pwwkew";
+            var result= longest_substring_without_repeating_characters.LongestSubstringWithoutRepeatingCharacters(input);
+            #endregion
+
             Console.Read();
         }
     }
