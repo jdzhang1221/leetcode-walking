@@ -1,6 +1,7 @@
 ﻿using leetcode._0003_Longest_Substring_Without_Repeating_Characters;
 using static leetcode._0002_Add_Two_Numbers.add_two_numbers;
 using System;
+using leetcode._0004_Median_of_two_sorted_arrays;
 
 namespace leetcode
 {
@@ -28,10 +29,15 @@ namespace leetcode
             #endregion
 
             #region longest substring without repeating characters
-            string input = "pwwkew";
-            var result= longest_substring_without_repeating_characters.LongestSubstringWithoutRepeatingCharacters(input);
+            //string input = "pwwkew";
+            //var result= longest_substring_without_repeating_characters.LongestSubstringWithoutRepeatingCharacters(input);
             #endregion
 
+            #region median of two sorted arrays
+            int[] nums1 = new int[] { 1, 3 };
+            int[] nums2 = new int[] { 2 };
+            var result= median_of_two_sorted_arrays.FindMedianSortedArrays(nums1,nums2);
+            #endregion
             Console.Read();
         }
     }
