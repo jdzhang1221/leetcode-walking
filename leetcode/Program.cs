@@ -2,6 +2,7 @@
 using static leetcode._0002_Add_Two_Numbers.add_two_numbers;
 using System;
 using leetcode._0004_Median_of_two_sorted_arrays;
+using leetcode._0015_3Sum;
 
 namespace leetcode
 {
@@ -34,10 +35,16 @@ namespace leetcode
             #endregion
 
             #region median of two sorted arrays
-            int[] nums1 = new int[] { 1, 3 };
-            int[] nums2 = new int[] { 2 };
-            var result= median_of_two_sorted_arrays.FindMedianSortedArrays(nums1,nums2);
+            //int[] nums1 = new int[] { 1, 3 };
+            //int[] nums2 = new int[] { 2 };
+            //var result= median_of_two_sorted_arrays.FindMedianSortedArrays(nums1,nums2);
             #endregion
+
+            #region 3Sum
+            int[] nums = new int[] { -1, 0, 1, 2, -1, -4 };
+            var result= ThreeSum.ThreeSumFunction(nums);
+            #endregion
+
             Console.Read();
         }
     }
