@@ -10,14 +10,14 @@ namespace leetcode
     {
         static void Main(string[] args)
         {
-            #region Two_Sum
+            #region 0001_Two Sum
             //int[] nums = new int[] { 2, 7, 11, 15 };
             //int target = 9;
             //var result = _0001_Two_Sum.two_sum.TwoSum(nums, target);
             //var result1 = _0001_Two_Sum.two_sum.TwoSum1(nums, target);
             #endregion
 
-            #region add two numbers
+            #region 0002_Add Two Numbers
             //ListNode l1 = new ListNode(3);
             //l1.next = new ListNode(4);
             //l1.next.next = new ListNode(3);
@@ -29,20 +29,25 @@ namespace leetcode
             //var result= AddTwoNumbers(l1, l2);
             #endregion
 
-            #region longest substring without repeating characters
+            #region 0003_Longest Substring Without Repeating Characters
             //string input = "pwwkew";
             //var result= longest_substring_without_repeating_characters.LongestSubstringWithoutRepeatingCharacters(input);
             #endregion
 
-            #region median of two sorted arrays
+            #region 0004_Median_of_two_sorted_arrays
             //int[] nums1 = new int[] { 1, 3 };
             //int[] nums2 = new int[] { 2 };
             //var result= median_of_two_sorted_arrays.FindMedianSortedArrays(nums1,nums2);
             #endregion
 
-            #region 3Sum
-            int[] nums = new int[] { -1, 0, 1, 2, -1, -4 };
-            var result= ThreeSum.ThreeSumFunction(nums);
+            #region 0005_Longest Palindromic Substring
+            string input = "ac";
+            var result= _0005_Longest_Palindromic_Substring.longest_palindromic_substring.LongestPalindrome(input);
+            #endregion
+
+            #region 0015_3Sum
+            //int[] nums = new int[] { -1, 0, 1, 2, -1, -4 };
+            //var result= ThreeSum.ThreeSumFunction(nums);
             #endregion
 
             Console.Read();
