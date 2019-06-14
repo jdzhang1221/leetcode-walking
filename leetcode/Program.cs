@@ -41,8 +41,13 @@ namespace leetcode
             #endregion
 
             #region 0005_Longest Palindromic Substring
-            string input = "ac";
-            var result= _0005_Longest_Palindromic_Substring.longest_palindromic_substring.LongestPalindrome(input);
+            //string input = "ac";
+            //var result= _0005_Longest_Palindromic_Substring.longest_palindromic_substring.LongestPalindrome(input);
+            #endregion
+
+            #region 0006_ZigZag Conversion
+            string s = "PAYPALISHIRING"; int numRows = 4;
+            var result= _0006_ZigZag_Conversion.zigzag_conversion.convert(s,numRows);
             #endregion
 
             #region 0015_3Sum
