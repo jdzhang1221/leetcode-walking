@@ -3,6 +3,7 @@ using static leetcode._0002_Add_Two_Numbers.add_two_numbers;
 using System;
 using leetcode._0004_Median_of_two_sorted_arrays;
 using leetcode._0015_3Sum;
+using leetcode._0007_Reverse_Integer;
 
 namespace leetcode
 {
@@ -46,8 +47,13 @@ namespace leetcode
             #endregion
 
             #region 0006_ZigZag Conversion
-            string s = "PAYPALISHIRING"; int numRows = 4;
-            var result= _0006_ZigZag_Conversion.zigzag_conversion.convert(s,numRows);
+            //string s = "PAYPALISHIRING"; int numRows = 4;
+            //var result= _0006_ZigZag_Conversion.zigzag_conversion.convert(s,numRows);
+            #endregion
+
+            #region 0007_Reverse_Integer
+            int request = 153423649;
+            var result= reverse_integer.Reverse(request);
             #endregion
 
             #region 0015_3Sum
