@@ -4,6 +4,7 @@ using System;
 using leetcode._0004_Median_of_two_sorted_arrays;
 using leetcode._0015_3Sum;
 using leetcode._0007_Reverse_Integer;
+using leetcode._0008_String_to_integer_atoi_;
 
 namespace leetcode
 {
@@ -52,8 +53,12 @@ namespace leetcode
             #endregion
 
             #region 0007_Reverse_Integer
-            int request = 153423649;
-            var result= reverse_integer.Reverse(request);
+            //int request = 153423649;
+            //var result= reverse_integer.Reverse(request);
+            #endregion
+            #region 0008_String_to_integer(atoi)
+            string request ="-91283472332";
+            var result= string_to_integer.MyAtoi(request);
             #endregion
 
             #region 0015_3Sum
