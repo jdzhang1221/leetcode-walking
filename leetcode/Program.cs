@@ -57,8 +57,12 @@ namespace leetcode
             //var result= reverse_integer.Reverse(request);
             #endregion
             #region 0008_String_to_integer(atoi)
-            string request ="-91283472332";
-            var result= string_to_integer.MyAtoi(request);
+            //string request ="-91283472332";
+            //var result= string_to_integer.MyAtoi(request);
+            #endregion
+
+            #region 0009_Palindrome_Number
+            var result= leetcode._0009_Palindrome_Number.palindrome_number.IsPalindrome(123);
             #endregion
 
             #region 0015_3Sum
