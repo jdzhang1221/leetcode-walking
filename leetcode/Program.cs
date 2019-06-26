@@ -66,12 +66,16 @@ namespace leetcode
             #endregion
 
             #region 0013_Roman_to_Integer
-            var result= leetcode._0013_Roman_to_Interger.roman_to_integer.RomanToInt("VIII");
+            //var result= leetcode._0013_Roman_to_Interger.roman_to_integer.RomanToInt("CVIII");
             #endregion
 
             #region 0015_3Sum
             //int[] nums = new int[] { -1, 0, 1, 2, -1, -4 };
             //var result= ThreeSum.ThreeSumFunction(nums);
+            #endregion
+
+            #region 0020_Valid_Parentheses
+            var result= leetcode._0020_Valid_Parentheses.valid_parentheses.IsValid("(()()[{}]");
             #endregion
 
             Console.Read();
